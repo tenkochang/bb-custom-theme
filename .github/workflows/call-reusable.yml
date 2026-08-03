@@ -1,0 +1,5 @@
+name: Call Reusable
+on: workflow_dispatch
+jobs:
+  call:
+    uses: tenkochang/bb-test-repo/.github/workflows/reusable-self.yml@main
